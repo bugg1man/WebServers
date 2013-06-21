@@ -1,0 +1,29 @@
+130621 15:00:32 [Note] Plugin 'FEDERATED' is disabled.
+130621 15:00:32 InnoDB: The InnoDB memory heap is disabled
+130621 15:00:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130621 15:00:32 InnoDB: Compressed tables use zlib 1.2.3
+130621 15:00:32 InnoDB: Initializing buffer pool, size = 128.0M
+130621 15:00:32 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+130621 15:00:32  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+130621 15:00:33  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+130621 15:00:33  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+130621 15:00:36  InnoDB: Waiting for the background threads to start
+130621 15:00:37 InnoDB: 1.1.8 started; log sequence number 0
+130621 15:00:37 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+130621 15:00:37 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+130621 15:00:37 [Note] Server socket created on IP: '127.0.0.1'.
+130621 15:00:37 [Note] Event Scheduler: Loaded 0 events
+130621 15:00:37 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)

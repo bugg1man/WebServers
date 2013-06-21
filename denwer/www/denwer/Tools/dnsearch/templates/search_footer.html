@@ -1,0 +1,37 @@
+<!--
+Ўаблон дл€ замыкани€ результатов поиска.
+
+ќсобенности:
+	[form]        Ч форма дл€ поиска (если в файле Ђsearch_header.htmlї уже
+	                использован этот шаблон, то здесь он работать не будет);
+	[script_path] Ч автоматически замен€етс€ на путь к скрипту;
+	[result]      Ч вставка общего количества найденных файлов;
+	[errors]      Ч вставка общего количества ошибок при поиске.
+	[in_find]     Ч замен€етс€ на им€ файла с кэшем (если есть) дл€ возможности Ђпоиска по найденномуї.
+
+P.S. ѕри выводе шаблона этот комментарий будет удалЄн.
+-->
+
+	<br /><br />
+	<div class="center">
+		<table cellspacing="0" cellpadding="5" class="table-form">
+			<tr><td id="border-top">&nbsp;</td></tr>
+			<tr>
+				<td style="background:#cc9;">
+					¬сего было найдено документов: <b>[result]</b> (ошибок: [errors]).
+				</td>
+			</tr>
+			<tr><td id="border-bottom">&nbsp;</td></tr>
+		</table>
+	</div>
+
+	<br />
+	<div class="right">
+		<a href="http://validator.w3.org/" title="Valid XHTML 1.0!"><img src="[script_path]?action=xhtml_img" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+		<a href="http://jigsaw.w3.org/css-validator/" title="Valid CSS 2.1!"><img src="[script_path]?action=css_img" alt="Valid CSS 2.1!" height="31" width="88" /></a>
+	</div>
+	<br />
+
+</div>
+
+<!--  онец вывода результатов поиска. -->

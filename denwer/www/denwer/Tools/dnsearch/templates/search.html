@@ -1,0 +1,32 @@
+<!--
+Ўаблон, по которому выводитс€ каждый результат.
+
+ќсобенности:
+	[script_path] Ч автоматически замен€етс€ на путь к скрипту;
+
+	[number]      Ч пор€дковый номер элемента;
+	[href]        Ч вставка ссылки на найденный файл;
+	[title]       Ч вставка <title> файла;
+	[match]       Ч совпадение с текстом и вокруг него;
+	[path]        Ч путь до найденного файла и его размер;
+	[count]       Ч количество совпадений в текущем документе;
+	[accord_*]    Ч строгое или нестрогое соответствие.
+
+P.S. ѕри выводе шаблона этот комментарий будет удалЄн.
+-->
+
+<ol><li value="[number]">
+	<a href="[href]" onclick="return openLocalFile('[href]');"          class="result" title="ќткрыть в этом же окне.">[title]</a>
+	<a href="[href]" onclick="return openLocalFile('[href]', 'blank');" class="win-new-ref" target="_blank">
+		<span class="back"       title="ќткрыть в новом окне.">&nbsp;</span>
+		<span class="back front" title="ќткрыть в новом окне.">&nbsp;</span>
+	</a>
+	<ul>
+		<li type="disc">
+			<div class="search-match" title="„асть найденного документа.">[match]&nbsp;</div>
+		</li>
+		<li type="circle">
+			<div class="search-desc"><span class="search-desc-path">[path]</span>&nbsp;&middot; совпадений: [count] &mdash; <span style="color:[accord_color];" title="[accord_title]">[accord_text]</span></div>
+		</li>
+	</ul>
+</li></ol>
