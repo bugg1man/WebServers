@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Сайт зараз закритий на технічне обслуговування. Будь ласка, завітайте пізніше.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'site,sumy.ua';
+	public $sitename = 'site.sumy.ua';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -21,7 +21,7 @@ class JConfig {
 	public $secret = '7AlKN7S0RaaZp06Y';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';
 	public $ftp_user = '';
@@ -57,4 +57,10 @@ class JConfig {
 	public $tmp_path = 'Z:\\home\\localhost\\www\\Joomla_site/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
 }

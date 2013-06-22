@@ -1,0 +1,37 @@
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------
+Originally developed by Patrick Griffiths and Dan Webb
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+---------------------------------------------------------
+NOTE: After a deep research, we decide to divide this
+CSS into 2 parts. The first part will define the layout.
+The second part will define the visual look for this menu.
+---------------------------------------------------------*/
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #333;
+}
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+background:#fff;
+border:2px solid #E0E0E0;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-cssmenu li ul li {
+	background: none;
+	border-bottom:1px solid #F3F3F3;
+}
+
+#ja-cssmenu li ul li ul li{
+border-bottom:1px solid #F3F3F3;
+}

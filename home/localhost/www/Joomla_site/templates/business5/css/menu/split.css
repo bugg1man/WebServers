@@ -1,0 +1,19 @@
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+}
+
+/* Sub Nav ---*/
+#ja-subnav { }
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+}
+
+#ja-subnav ul li ul li {
+}
+
+#ja-subnav ul li ul li:first-child {
+	border: 0;
+}

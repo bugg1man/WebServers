@@ -1,0 +1,126 @@
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #fff;
+}
+
+#ja-splitmenu li{
+float: left;
+padding:0px;
+margin:0 3px 0 3px ;
+}
+
+#ja-subnav ul li.active a.active, #ja-subnav ul li.active a.active:hover, #ja-subnav ul li.active a.active:active, #ja-subnav ul li.active a.active:focus{
+color:#777777;
+font-weight:normal;
+padding:0;
+}
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+color:#fff;
+background:url(../../images/navigation-underline.png) no-repeat scroll center bottom transparent ;
+border-radius:9px;
+
+}
+
+#ja-subnav ul li ul {
+background:#fff;
+border:2px solid #E1E1E1;
+top:4.2em;
+position: absolute;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+/* Sub Nav ---*/
+#ja-subnav { 
+border-top:2px solid #ccc;
+border-bottom:2px solid #ccc;
+}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav li.first-item:hover {}
+
+#ja-subnav li.first-item {}
+
+
+#ja-subnav ul li{}
+
+#ja-subnav ul li:hover{}
+
+#ja-subnav li {
+display: block;
+float: left;
+margin:6px 3px;
+padding:8px 10px;
+overflow:visible;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul li ul li a{}
+
+#ja-subnav ul li ul li a span.menu-title {
+    line-height: 1.5em;
+	color:#BBBBBB;
+}
+
+#ja-subnav ul li ul li a span.menu-title:hover{
+color:#777777;
+}
+
+#ja-subnav ul.active li a {
+    color:#BBBBBB;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul.active li a:hover{
+text-decoration:none;
+
+}
+
+#ja-subnav ul li a{}
+
+#ja-subnav ul li ul li:hover{padding-left:13px;}
+
+#ja-subnav li:hover {}
+
+#ja-subnav ul li ul li {
+border-top:1px solid #F3F3F3;
+}
+
+#ja-subnav ul li ul li:first-child {
+}
+
+#ja-splitmenu a {
+	color:#fff;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: normal;
+	margin:0;
+	padding:8px 15px 8px 15px;
+	text-decoration:none;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	background:url(../../images/navigation-underline.png) no-repeat scroll center bottom transparent ;
+	
+}
+
+#ja-splitmenu {
+    position: relative;
+	background:url(../../images/menu.png) no-repeat center center ; padding-bottom:25px;
+}
